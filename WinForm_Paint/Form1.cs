@@ -163,6 +163,12 @@ namespace WinForm_Paint
             isEra = false;
             isPen = false;
         }
+
+        private void panel1_Resize(object sender, EventArgs e)
+        {
+            g = panel1.CreateGraphics();
+        }
+
         private void button_color_Click(object sender, EventArgs e)
         {
             panel1.BackColor = sb.Color;

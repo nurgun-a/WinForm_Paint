@@ -60,6 +60,7 @@ namespace WinForm_Paint
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
+            this.panel1.Resize += new System.EventHandler(this.panel1_Resize);
             // 
             // groupBox1
             // 
